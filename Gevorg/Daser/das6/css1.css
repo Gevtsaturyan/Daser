@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+    z-index: 2;
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 20px auto;
+}
+.div6{
+    width: 800px;
+    height: 600px;
+    background-color: yellow;
+    position: relative;
+}
+.div4{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    position: fixed;
+
+
+}
+.div5{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    right: 0px;
+    margin: auto;
+}
+.div7{
+    width: 800px;
+    height: 600px;
+    background-color: yellow;
+    position: relative;
+
+}
+.div8{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    
+}
+.div9{
+    width: 150px;
+    height: 150px;
+    background-color:blue;
+    position: absolute;
+    right: 0px;
+    top:0px;
+}
+.div10{
+    width: 150px;
+    height: 150px;
+    background-color:black;
+    position: absolute;
+    bottom: 0px;
+
+}
+.div11{
+    width: 150px;
+    height: 150px;
+    background-color:chocolate;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.div12{
+    width: 150px;
+    height: 150px;
+    background-color:violet;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.div13{
+    width: 800px;
+    height: 600px;
+    background-color: blue;
+    position: relative;
+}
+.div14{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 5px 2px 3px 5px yellow;
+}
+.div15{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    left: 120px;
+    top: 40px;
+    box-shadow: inset 0px 2px 3px 1px wheat;
+}
+.div16{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    left: 60px;
+    top: 40px;
+    box-shadow: 0px 1px 3px 4px white;
+}
+.div17 p:nth-child(1){
+    background-color: red;
+}
+.div17 p:nth-child(4){
+    background-color: blue;
+    text-shadow: 4px 2px 4px;
+}
+.div17 p:nth-child(5){
+    font-size: 35px;
+    text-shadow: 1px 2px 3px black;
+}
+.div17 p:nth-child(2){
+    color:yellow;
+}
+.div17 p:nth-child(3){
+    background-color: black;
+    color: blue;
+}

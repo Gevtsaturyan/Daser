@@ -1,0 +1,166 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* margin:auto; */
+    margin: 50px auto;
+}
+.div2{
+    width: 50px;
+    height: 50px;
+     background-color: yellow;
+     margin:50px 40px 30px 20px;
+     margin-left: 70px;
+     margin-bottom: 57px;
+}
+.div14{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin-left: 50px;
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.div4{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding: 70px;
+    
+}
+.div5{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+
+}
+.h1{
+    width: 400px;
+    height: 50px;
+    background-color: brown;
+    display: inline-block;
+}
+.span1{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    background-color:blue ;
+    display: block;
+    
+}
+.div6{
+    width: 1300px;
+    height: 700px;
+    background-color:black;
+    margin: 20px 50px 40px 50px ;
+    display: inline-block;
+    padding-top: 20px;
+    
+
+}
+.div7{
+    width: 400px;
+    height: 300px;
+    background-color: yellow;
+    float: left;
+    margin-top: 150px;
+
+}
+.div8{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    word-break: break-all;
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+.p{
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    float: left;
+    margin-left: 40px;
+}
+.div9{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.div13{
+    width: 100%;
+    height: 800px;
+    background-color: yellow;
+}
+.div10{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-bottom: 400px;
+
+}
+.div12{
+    width: 400px;
+    height: 200px;
+    background-color:aliceblue;
+    word-break: break-all;
+    margin-top: 50px;
+    margin-bottom: 500px;
+    margin-left: 80px;
+    padding: 20px;
+    display: inline-block;
+
+}
+.div11{
+    width: 200px;
+    height: 200px;
+    background-color: thistle;
+    display: inline-block;
+    margin-left: 100px;
+}
+.mok{
+    width: 400px;
+    height: 300px;
+    background-color: wheat;
+    margin: auto;
+    border: 1px solid;
+}
+.tle{
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+
+}
+.divik{
+    text-align: center;
+    margin-left: 400px;
+}
+.m1{
+    width: 1300px;
+    height: 40px;
+    background-color:yellow;
+    text-align: center;
+    
+    
+    
+}
+.divv{
+    margin-top: 10px;
+}

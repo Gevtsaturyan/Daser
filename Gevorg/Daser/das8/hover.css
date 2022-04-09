@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --b: 300px;
+    --t: 3s;
+    --a: all;
+    --k: 20px;
+    --r: red;
+    --j: yellow;
+
+}
+h1{
+    background-color: var(--r);
+    color: white;
+    transition-duration: var(--t);
+    transition-property: all;
+
+}
+h1:hover{
+    background-color: yellow;
+    color: blue;
+    transition-duration: 5s;
+    transition-property: all;
+}
+h2{
+    background-color: brown;
+    color: azure;
+    transition-duration: 1s, 5s;
+    transition-property: background,color;
+}
+h2:hover{
+    background-color: yellow;
+    color: tomato;
+    transition-duration: 2s, 3s;
+    transition-property: background,color;
+}
+h3{
+    background-color: violet;
+    color: var(--j);
+    transition-duration: 2s, 3s, 4s;
+    transition-property: background, color, font-size;
+    transition-delay: 1s, 2s, 3s;
+}
+h3:hover{
+    background-color: rebeccapurple;
+    color: peru;
+    font-size: 35px;
+    transition-duration: 2s, 3s, 4s;
+    transition-property: background, color, font-size;
+    transition-delay: 1s, 2s, 3s;
+}
+.div1{
+    width: var(--b);
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    margin-top: var(--k);
+    transition-timing-function:ease;
+    transition-duration: 2s;
+}
+.div1:hover{
+    width: 600px;
+    background-color: var(--r);
+    transition-timing-function: ease;
+    transition-duration: 2s;
+}
+.div2{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+    margin-top: 5px;
+}
+.div2:hover{
+    width: 500px;
+    background-color: yellow;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+}
+.div3{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    transition-timing-function: ease-out;
+    transition-duration: 1s;
+    margin-top: 5px;
+}
+.div3:hover{
+    width: 500px;
+    background-color: yellow;
+    transition-timing-function: ease-out;
+    transition-duration: 1s;
+}
+.div4{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    transition-timing-function:ease-in-out;
+    transition-duration: 1s;
+    margin-top: 5px;
+
+}
+.div4:hover{
+    width: 500px;
+    background-color: yellow;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+}
+.div5{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    transition-timing-function:linear;
+    transition-duration: 3s;
+    margin-top: 5px;
+    display: inline-block;
+}
+.div5:hover{
+    width: 500px;
+    background-color: yellow;
+    transition-timing-function:linear;
+    transition-duration: 3s;
+}
+.div6{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    transition-timing-function:steps(3,start);
+    transition-duration: 3s;
+    margin-top: 5px;
+    display: inline-block
+}
+.div6:hover{
+    width: 500px;
+    background-color: yellow;
+    transition-timing-function:steps(3,start);
+    transition-duration: 3s;
+}
+.div7{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    transition-timing-function:cubic-bezier(1,2,3,4,);
+    transition-duration: 3s;
+    margin-top: 5px;
+}
+.div7:hover{
+    width: 500px;
+    background-color: yellow;
+    transition-timing-function:cubic-bezier(1,2,3,4,);
+    transition-duration: 3s;
+}
+.div8{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    transition: all 1s ease 2s;
+    margin-top: 5px;
+}
+.div8:hover{
+    width: 500px;
+    background-color: yellow;
+    transition: all 1s ease 2s;
+}
+.div9{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    
+    transition: all 1s ease 0s, background-color 2s ease-in 2s;
+    margin-top: 5px;
+}
+.div9:hover{
+    width: 500px;
+    background-color: yellow;
+    
+    transition: all 1s ease 0s, background-color 2s ease-in 2s;
+}
+.div10{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    margin-top: 5px;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.div10:hover{
+    width: 500px;
+    background-color: yellow;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.div11{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    margin-top: 5px;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.17,.67,.92,.48);
+}
+.div11:hover{
+    width: 500px;
+    background-color: yellow;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.17,.67,.92,.48);
+}
+.div12{
+     width: 200px;
+     height: 200px;
+     background-color: brown;
+}
+.div13{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    
+}
+.div12:hover>div13{
+    background-color: blue;
+
+}
+.div14{
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    color: blue;
+    text-align: center;
+    margin-top: 5px;
+    display: inline-block;
+    transition: all 2s ease 2s;
+    position: relative;
+}
+.div14:hover{
+    width: 300px;
+    height: 30px;
+    color: teal;
+    background-color: yellow;
+    transition: all 2s ease 1s;
+}
+.div15{
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+    transition: all 2s ease 2s;
+    position: relative;
+}
+.div15:hover{
+    width: 300px;
+    height: 30px;
+    background-color:green;
+    color: yellowgreen;
+    transition: all 2s ease 1s;
+}
+.div16{
+    width: 300px;
+    height: 30px;
+    background-color: blueviolet;
+    color:sandybrown;
+    text-align: center;
+    margin-top: 5px;
+    display: inline-block;
+    transition: all 2s ease 0s;
+}
+.div16:hover{
+    width: 300px;
+    height: 30px;
+    background-color:yellow;
+    color: wheat;
+    transition: all 2s ease 0;
+}
+.div17{
+    width: 10px;
+    height: 30px;
+    background-color: blueviolet;
+    color:sandybrown;
+    margin-top: 5px;
+    transition-timing-function: cubic-bezier(0.68,-0.55,0.265,1.55);
+    transition: all 3s ease 0s;
+
+}
+.div17:hover{
+    width: 1500px;
+    height: 30px;
+    background-color:yellow;
+    color: wheat;
+    transition: all 5s ease 0;
+    transition-timing-function: cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.div18{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    margin-top: 10px;
+    transition: all 1s ease 0s;
+
+}
+.div18:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    transition: all 1s ease 0s;
+}
+.div19{
+    width: 200px;
+    height: 150px;
+    background-color:black;
+    transition: all 2s ease 1s;
+    margin-top: 50px;
+}
+.div19:hover{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border:5px dashed blue;
+    border-radius: 50%;
+    transition: all 2s ease 1s;
+    
+}
+.div20{
+    transition: all 2s ease 1s;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+    display: inline-block;
+    
+}
+.div20:hover{
+    transition: all 5s ease 1s;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+.div201{
+    position: absolute;
+    transition: all 2s ease 1s;
+    margin-top: 100px;
+    margin-left: -178px;
+    display: inline;
+    z-index: 1;
+    
+}
+.div20:hover>div201{
+    background-color: transparent;
+    
+
+}
+.img2{
+    border-radius: 50%;
+    width: 216px;
+    height: 216px;
+    margin-top: -45px;
+    margin-left: -46px;
+}
